@@ -95,7 +95,6 @@ def solve(eps):
         # Пересчитываем проекцию
         calcProjection(projection, newElem, curDegree)
 
-        # Рисуем только когда дойдем до определенной точности
         plot(calcValuesPolynom(projection), curDegree)
 
 
