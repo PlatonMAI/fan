@@ -63,7 +63,6 @@ def solve(eps):
     system = []
     curDegree = -1
     projection = []
-    calcProjection(projection, [1], curDegree)
 
     while (True):
         # Вычисляем текущую длину ошибки проектирования
